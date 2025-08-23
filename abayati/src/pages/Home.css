@@ -1,0 +1,38 @@
+body {
+    background-color: #f1eae0; /* Sand color */
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-header {
+    margin-bottom: 30px;
+  }
+  
+  .featured-products {
+    margin-top: 20px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }

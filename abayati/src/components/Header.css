@@ -1,0 +1,62 @@
+/* Header container */
+.header {
+    background-color:#f1eae0;; /* Sand color to match the home screen */
+    color: black;
+    padding: 15px 30px; /* Increased padding for a more spacious look */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for a professional look */
+    position: sticky; /* Keeps the header fixed at the top */
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Logo button */
+  .logo-button {
+    font-size: 28px; /* Slightly larger font for the logo */
+    font-weight: bold;
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .logo-button:hover {
+    text-decoration: underline;
+  }
+  
+  /* Navigation container */
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Navigation links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px; /* Increased gap for better spacing */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation buttons */
+  .nav-button {
+    background: none;
+    border: 2px solid transparent; /* Transparent border for hover effect */
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px 15px; /* Added padding for better clickability */
+    border-radius: 5px; /* Rounded corners for a modern look */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .nav-button:hover {
+    background-color: #e0d5c2; /* Slightly darker sand color for hover */
+    border-color: black; /* Adds a border on hover */
+    color: black;
+  }
