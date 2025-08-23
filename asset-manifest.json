@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/abayati/static/css/main.c0690339.css",
-    "main.js": "/abayati/static/js/main.6afe3f74.js",
+    "main.css": "/abayati/static/css/main.f515a22d.css",
+    "main.js": "/abayati/static/js/main.ff8183ab.js",
     "static/js/453.7fb2727a.chunk.js": "/abayati/static/js/453.7fb2727a.chunk.js",
     "static/media/IMG1.png": "/abayati/static/media/IMG1.83ab69fcafb06b91e821.png",
     "index.html": "/abayati/index.html",
-    "main.c0690339.css.map": "/abayati/static/css/main.c0690339.css.map",
-    "main.6afe3f74.js.map": "/abayati/static/js/main.6afe3f74.js.map",
+    "main.f515a22d.css.map": "/abayati/static/css/main.f515a22d.css.map",
+    "main.ff8183ab.js.map": "/abayati/static/js/main.ff8183ab.js.map",
     "453.7fb2727a.chunk.js.map": "/abayati/static/js/453.7fb2727a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0690339.css",
-    "static/js/main.6afe3f74.js"
+    "static/css/main.f515a22d.css",
+    "static/js/main.ff8183ab.js"
   ]
 }
