@@ -1,0 +1,376 @@
+/* How It Works Section */
+.how-it-works {
+    background-color: transparent;
+    padding: 80px 20px;
+    margin: 60px 0;
+  }
+  
+  .how-it-works-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Main Title */
+  .how-it-works-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 60px;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: -1px;
+  }
+  
+  /* Steps Container */
+  .steps-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual Step Item */
+  .step-item {
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .step-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Step Icon Container */
+  .step-icon-container {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 16px;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .step-icon-container:hover {
+    background-color: transparent;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Step Icon */
+  .step-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+  
+  .step-item:hover .step-icon {
+    transform: scale(1.1);
+  }
+  
+  /* Step Title */
+  .step-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 16px;
+    line-height: 1.3;
+  }
+  
+  /* Step Description */
+  .step-description {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Large Desktop */
+  @media (min-width: 1400px) {
+    .how-it-works {
+      padding: 100px 40px;
+    }
+    
+    .how-it-works-title {
+      font-size: 56px;
+      margin-bottom: 80px;
+    }
+    
+    .steps-container {
+      gap: 60px;
+    }
+    
+    .step-item {
+      min-width: 320px;
+      max-width: 400px;
+    }
+    
+    .step-icon-container {
+      width: 140px;
+      height: 140px;
+      margin-bottom: 40px;
+    }
+    
+    .step-icon {
+      width: 90px;
+      height: 90px;
+    }
+    
+    .step-title {
+      font-size: 28px;
+    }
+    
+    .step-description {
+      font-size: 18px;
+    }
+  }
+  
+  /* Desktop */
+  @media (min-width: 1024px) and (max-width: 1399px) {
+    .how-it-works {
+      padding: 70px 30px;
+    }
+    
+    .steps-container {
+      gap: 35px;
+    }
+  }
+  
+  /* Tablet */
+  @media (min-width: 769px) and (max-width: 1023px) {
+    .how-it-works {
+      padding: 60px 25px;
+      margin: 50px 0;
+    }
+    
+    .how-it-works-title {
+      font-size: 42px;
+      margin-bottom: 50px;
+    }
+    
+    .steps-container {
+      gap: 30px;
+      justify-content: center;
+    }
+    
+    .step-item {
+      min-width: 250px;
+      max-width: 300px;
+    }
+    
+    .step-icon-container {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 25px;
+    }
+    
+    .step-icon {
+      width: 70px;
+      height: 70px;
+    }
+    
+    .step-title {
+      font-size: 22px;
+      margin-bottom: 14px;
+    }
+    
+    .step-description {
+      font-size: 15px;
+      max-width: 250px;
+    }
+  }
+  
+  /* Mobile Landscape */
+  @media (min-width: 481px) and (max-width: 768px) {
+    .how-it-works {
+      padding: 50px 20px;
+      margin: 40px 0;
+    }
+    
+    .how-it-works-title {
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+    
+    .steps-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+    
+    .step-item {
+      min-width: auto;
+      max-width: 400px;
+      width: 100%;
+    }
+    
+    .step-icon-container {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 25px;
+    }
+    
+    .step-icon {
+      width: 70px;
+      height: 70px;
+    }
+    
+    .step-title {
+      font-size: 22px;
+      margin-bottom: 14px;
+    }
+    
+    .step-description {
+      font-size: 15px;
+      max-width: 350px;
+    }
+  }
+  
+  /* Mobile Portrait */
+  @media (max-width: 480px) {
+    .how-it-works {
+      padding: 40px 15px;
+      margin: 30px 0;
+    }
+    
+    .how-it-works-title {
+      font-size: 32px;
+      margin-bottom: 35px;
+      line-height: 1.3;
+    }
+    
+    .steps-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 35px;
+    }
+    
+    .step-item {
+      min-width: auto;
+      max-width: none;
+      width: 100%;
+      padding: 15px;
+    }
+    
+    .step-icon-container {
+      width: 90px;
+      height: 90px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+    }
+    
+    .step-icon {
+      width: 60px;
+      height: 60px;
+    }
+    
+    .step-title {
+      font-size: 20px;
+      margin-bottom: 12px;
+      line-height: 1.4;
+    }
+    
+    .step-description {
+      font-size: 14px;
+      max-width: none;
+      line-height: 1.5;
+    }
+  }
+  
+  /* Small Mobile */
+  @media (max-width: 360px) {
+    .how-it-works {
+      padding: 35px 10px;
+    }
+    
+    .how-it-works-title {
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+    
+    .step-item {
+      padding: 10px;
+    }
+    
+    .step-icon-container {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 18px;
+    }
+    
+    .step-icon {
+      width: 50px;
+      height: 50px;
+    }
+    
+    .step-title {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    
+    .step-description {
+      font-size: 13px;
+    }
+  }
+  
+  /* Accessibility and Interaction States */
+  .step-item:focus-within {
+    outline: 2px solid #333;
+    outline-offset: 4px;
+    border-radius: 8px;
+  }
+  
+  /* High Contrast Mode */
+  @media (prefers-contrast: high) {
+    .step-title {
+      color: #000;
+    }
+    
+    .step-description {
+      color: #333;
+    }
+    
+    .step-icon-container {
+      border-width: 3px;
+      border-color: #000;
+    }
+  }
+  
+  /* Reduced Motion */
+  @media (prefers-reduced-motion: reduce) {
+    .step-item,
+    .step-icon-container,
+    .step-icon {
+      transition: none;
+    }
+    
+    .step-item:hover,
+    .step-item:hover .step-icon {
+      transform: none;
+    }
+  }
+  
+  /* Print Styles */
+  @media print {
+    .how-it-works {
+      padding: 20px 0;
+      margin: 20px 0;
+    }
+    
+    .step-icon-container:hover {
+      background-color: #f8f9fa;
+      box-shadow: none;
+    }
+  }
