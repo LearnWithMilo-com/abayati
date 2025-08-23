@@ -6,8 +6,6 @@ function Home() {
 
   return (
     <div className="home">
-      <header className="home-header">
-      </header>
       <CustomSection />
     </div>
   );
